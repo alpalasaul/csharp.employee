@@ -1,0 +1,32 @@
+package com.cmc.eval.servicios;
+
+import java.util.ArrayList;
+
+import com.cmc.eval.commons.ArchivoException;
+import com.cmc.eval.entidades.Cliente;
+import com.cmc.eval.entidades.Deuda;
+
+public class AdminDeudas {
+	
+	public static final String NOMBRE_ARCHIVO = "deudas.txt";
+	
+	public static ArrayList<Deuda> recuperarDeudas(String cedula) throws ArchivoException {
+		AdminArchivos adminArchivos = new AdminArchivos(NOMBRE_ARCHIVO);
+		ArrayList<String> listaRecuperada = new ArrayList<String>();
+		listaRecuperada.addAll(adminArchivos.leer());
+		ArrayList<Deuda> deudasCliente = new ArrayList<Deuda>();
+		String linea = "";
+		String[] separado;
+		Cliente cli = null;
+		for (int i = 0; i < listaRecuperada.size(); i++) {
+			if (listaRecuperada != null) {
+				linea = listaRecuperada.get(i);
+				separado = linea.split("-"); // posiblemente toque cambiar mas adelante
+				cli = new Cliente(separado[0], separado[1], separado[2]); // cedula nombre apellido (String)
+				clientes.add(cli);
+			}
+		}
+		return clientes;
+	}
+
+}

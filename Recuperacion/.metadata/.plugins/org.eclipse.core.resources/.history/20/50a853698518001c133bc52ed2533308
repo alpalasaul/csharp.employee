@@ -1,0 +1,11 @@
+package com.cmc.eval.test;
+
+import com.cmc.eval.entidades.Cliente;
+
+public class TestBusqueda {
+	
+	public static void main(String[] args) {
+		String cedulaBuscada = "5555555";
+	}
+
+}

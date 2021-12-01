@@ -1,0 +1,5 @@
+package com.cmc.eval.entidades;
+
+public class Pago {
+
+}

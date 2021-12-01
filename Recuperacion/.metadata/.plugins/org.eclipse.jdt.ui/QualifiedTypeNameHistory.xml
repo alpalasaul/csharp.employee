@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.cmc.eval.commons.ValidationException"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Response"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="com.cmc.eval.entidades.Busqueda"/>
+<fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
+<fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
+<fullyQualifiedTypeName name="com.cmc.eval.servicios.AdminArchivos"/>
+<fullyQualifiedTypeName name="com.cmc.eval.commons.DateUtil"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.cmc.eval.servicios.AdminClientes"/>
+<fullyQualifiedTypeName name="com.cmc.eval.servicios.AdminPagos"/>
+<fullyQualifiedTypeName name="com.cmc.eval.servicios.AdminDeudas"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="com.cmc.eval.entidades.Pago"/>
+<fullyQualifiedTypeName name="com.cmc.eval.entidades.Deuda"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="javax.sound.midi.Soundbank"/>
+<fullyQualifiedTypeName name="com.cmc.eval.entidades.Cliente"/>
+<fullyQualifiedTypeName name="com.cmc.eval.servicios.Admin"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.swing.text.AbstractDocument.DefaultDocumentEvent"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+</qualifiedTypeNameHistroy>

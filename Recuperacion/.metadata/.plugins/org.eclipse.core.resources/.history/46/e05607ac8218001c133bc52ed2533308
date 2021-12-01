@@ -1,0 +1,9 @@
+package com.cmc.eval.servicios;
+
+public class AdminClientes {
+	
+	public final String k;
+	
+	
+
+}

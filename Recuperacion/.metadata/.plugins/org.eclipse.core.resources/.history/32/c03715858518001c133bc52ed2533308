@@ -1,0 +1,22 @@
+package com.cmc.eval.test;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.cmc.eval.entidades.Cliente;
+
+public class TestBusqueda {
+	
+	private Logger logger = LogManager.getLogger(TestBusqueda.class);
+	
+	public static void main(String[] args) {
+		String cedulaBuscada = "5555555";
+		try {
+			Cliente cli = AdminClientes.buscarPorCedula(cedulaBuscada);
+		} catch (ArchivoException e) {
+			
+			e.printStackTrace();
+		}
+	}
+
+}

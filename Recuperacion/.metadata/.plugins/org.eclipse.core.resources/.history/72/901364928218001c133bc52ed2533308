@@ -1,0 +1,7 @@
+package com.cmc.eval.servicios;
+
+public class AdminClientes {
+	
+	private static final String NOMBRE_ARCHIVO;
+
+}

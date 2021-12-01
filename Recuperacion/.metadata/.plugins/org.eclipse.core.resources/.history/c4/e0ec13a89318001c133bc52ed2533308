@@ -1,0 +1,14 @@
+package com.cmc.eval.servicios;
+
+import com.cmc.eval.entidades.Pago;
+
+public class AdminPagos {
+	
+	public static void registrarPago(Pago pago) {
+		if (pago != null) {
+			AdminArchivos.guardarPago(pago);
+		}
+		
+	}
+
+}

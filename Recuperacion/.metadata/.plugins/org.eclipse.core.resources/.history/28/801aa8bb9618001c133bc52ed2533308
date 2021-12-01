@@ -1,0 +1,8 @@
+package com.cmc.servicios;
+
+import javax.ws.rs.Path;
+
+@Path("/pagosSer")
+public class ServicioPagos {
+
+}

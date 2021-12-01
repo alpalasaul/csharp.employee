@@ -1,0 +1,40 @@
+package com.cmc.eval.servicios;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.Date;
+
+import com.cmc.eval.commons.ArchivoException;
+import com.cmc.eval.entidades.Cliente;
+
+public class AdminClientes {
+	
+	public static final String NOMBRE_ARCHIVO = "clientes.txt";
+	
+	public static ArrayList<Cliente> recuperarTodos() throws ArchivoException {
+		AdminArchivos adminArchivos = new AdminArchivos(NOMBRE_ARCHIVO);
+		ArrayList<String> listaRecuperada = new ArrayList<String>();
+		listaRecuperada.addAll(adminArchivos.leer());
+		ArrayList<Cliente> clientes = new ArrayList<Cliente>();
+		String linea = "";
+		String[] separado;
+		for (int i = 0; i < listaRecuperada.size(); i++) {
+			if (listaRecuperada != null) {
+				linea = listaRecuperada.get(i);
+				
+			}
+			
+		}
+		
+		
+		return clientes;
+	}
+	
+	
+
+}
